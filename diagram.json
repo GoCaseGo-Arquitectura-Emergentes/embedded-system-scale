@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "author": "NexusNova",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -91.3, "left": -206.6, "attrs": {} },
+    {
+      "type": "wokwi-hx711",
+      "id": "cell1",
+      "top": 98.6,
+      "left": -26.2,
+      "attrs": { "type": "50kg" }
+    },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcd1",
+      "top": -118.4,
+      "left": -23.2,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -22.6,
+      "left": -307.2,
+      "attrs": { "color": "red", "bounce": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 143.9,
+      "left": -188.5,
+      "rotate": 90,
+      "attrs": { "color": "blue", "bounce": "1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "cell1:VCC", "green", [ "h18.9", "v163.2" ] ],
+    [ "cell1:SCK", "esp:D4", "red", [ "h-28.8", "v-192.9" ] ],
+    [ "cell1:DT", "esp:D18", "yellow", [ "h-19.2", "v-221.3" ] ],
+    [ "cell1:GND", "esp:GND.1", "black", [ "h-9.6", "v-144.2" ] ],
+    [ "lcd1:SDA", "esp:D21", "red", [ "v0.2", "h-28.8", "v38.8" ] ],
+    [ "lcd1:GND", "esp:GND.2", "black", [ "v-19.2", "h-201.6", "v163.3" ] ],
+    [ "lcd1:VCC", "esp:3V3", "green", [ "h-9.6", "v0.1", "h-57.6", "v144" ] ],
+    [ "lcd1:SCL", "esp:D22", "purple", [ "h-19.2", "v0.3", "h-66.9" ] ],
+    [ "btn1:2.r", "esp:GND.2", "black", [ "h19.4", "v48.3" ] ],
+    [ "btn1:1.r", "esp:D33", "green", [ "v0" ] ],
+    [ "btn2:1.l", "esp:D15", "green", [ "h76.8", "v-86.2" ] ],
+    [ "btn2:2.l", "esp:GND.2", "black", [ "v-6.3", "h-57.8", "v-80" ] ]
+  ],
+  "dependencies": {}
+}
