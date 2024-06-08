@@ -1,5 +1,5 @@
 # Embedded Weight Control System
-<h1 align="center"> <img src="[https://raw.githubusercontent.com/GoCaseGo-Arquitectura-Emergentes/embedded-system-scale/main/assets/screenshot.png](https://raw.githubusercontent.com/GoCaseGo-Arquitectura-Emergentes/embedded-system-scale/main/assets/screenshot-project.png)" alt="Project Screenshot" height="350"> </h1>
+<h1 align="center"> <img src="https://raw.githubusercontent.com/GoCaseGo-Arquitectura-Emergentes/embedded-system-scale/main/assets/screenshot-project.png" alt="Project Screenshot" height="350"> </h1>
 
 ## Project Description
 
