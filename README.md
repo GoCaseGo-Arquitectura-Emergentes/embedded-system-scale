@@ -1,5 +1,5 @@
 # Embedded Weight Control System
-<h1 align="center"> <img src="https://raw.githubusercontent.com/GoCaseGo-Arquitectura-Emergentes/embedded-system-scale/main/assets/screenshot.png" alt="Project Screenshot" height="350"> </h1>
+<h1 align="center"> <img src="[https://raw.githubusercontent.com/GoCaseGo-Arquitectura-Emergentes/embedded-system-scale/main/assets/screenshot.png](https://raw.githubusercontent.com/GoCaseGo-Arquitectura-Emergentes/embedded-system-scale/main/assets/screenshot-project.png)" alt="Project Screenshot" height="350"> </h1>
 
 ## Project Description
 
@@ -15,7 +15,7 @@ To explore and simulate this project, you can use the provided link to access th
 
 GoCaseGo is the team behind this project. We are a passionate group of makers and developers working on various embedded systems and IoT projects. For more information about our projects and updates, visit our website:
 
-- Website: [GoCaseGo Official](https://gocasego-arquitectura-emergentes.github.io/landing-page)
+- Website: [GoCaseGo Official](https://github.com/GoCaseGo-Arquitectura-Emergentes/landing-page)
 
 Feel free to explore, collaborate, and contribute to this project. If you have any questions or suggestions, please don't hesitate to get in touch.
 
